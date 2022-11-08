@@ -1,5 +1,10 @@
 import { defineConfig } from "vite";
 
-export default defineConfig({
+import eslint from 'vite-plugin-eslint'
 
-});
+export default defineConfig({
+  plugins: [eslint({
+    failOnWarning: false,
+    failOnError: false,
+  })]
+})
