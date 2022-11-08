@@ -1,0 +1,17 @@
+{
+  "name": "lit-simple-starter-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "lit": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "vite": "^3.2.3"
+  }
+}
